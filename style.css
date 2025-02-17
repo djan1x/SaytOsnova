@@ -1,0 +1,89 @@
+body {
+    background-image: url(https://sotni.ru/wp-content/uploads/2023/08/serye-gory-v-tumane-1.webp);
+}
+a {
+    color: rgb(44, 44, 44); /* Цвет меняет */
+    transition: 0.4s;
+    text-decoration: none; 
+}
+a:hover {
+    color: rgb(243, 3, 3);
+    text-decoration: none;
+    font-size: 30px; 
+    text-shadow: 
+    0 0 5px hsl(0, 0%, 100%), /* Светящийся эффект */
+    0 0 10px hsl(0, 0%, 100%),
+    0 0 15px hsl(0, 90%, 38%),
+    0 0 20px hsl(0, 100%, 50%),
+    0 0 25px hsl(0, 0%, 21%),
+    0 0 30px  hsl(0, 0%, 21%),
+    0 0 35px hsl(0, 0%, 100%); /* Можно изменить цвет на желаемый */
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+}
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+ul {
+list-style: none;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #282c34; /* Темный фон */
+    color: white; /* Цвет текста */
+}
+
+h1 {
+    font-size: 48px;
+    animation: bounce 2s infinite; /* Применение анимации */
+    animation: headerColor 1s infinite;
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(-80); /* Исходное положение */
+    }
+    40% {
+        transform: translateY(-60px); /* Подъем заголовка */
+    }
+    60% {
+        transform: translateY(-30); /* Небольшой подъем */
+    }
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #000000; /* Темный фон */
+    color: white; /* Цвет текста */
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h1 {
+    font-size: 48px;
+    animation: bounce 10s infinite; /* Применение анимации */
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(200); /* Исходное положение */
+    }
+    40% {
+        transform: translateY(-60px); /* Подъем заголовка */
+    }
+    60% {
+        transform: translateY(-30px); /* Небольшой подъем */
+    }
+}
