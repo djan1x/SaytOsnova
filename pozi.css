@@ -1,0 +1,94 @@
+.about{
+    background-image: url(https://kartinki.pics/pics/uploads/posts/2022-08/thumbs/1661431522_14-kartinkin-net-p-fon-dlya-saita-besshovnii-temnii-krasivo-15.jpg);
+    padding-top: 64px;
+    padding-bottom: 150px;
+}
+.content{
+    display: grid;
+    grid-template-columns: repeat(4,200px);
+    gap: 35px;
+    justify-content: center;
+    margin-bottom: 128px;
+}
+.center{
+   padding-left: calc(50% - 560px);
+   padding-right: calc(50% - 560px);
+}
+.item {
+    border: 1px solid #000000;
+    min-height: 300px;
+}
+.item1{
+   grid-column: 1/3;
+   grid-row: 1/3;
+}
+.item3{
+    grid-column: 4/5;
+    grid-row: 1/3;
+ }
+ .elem{
+    width: 250px;
+    height: 150px;
+    position: absolute;
+ }
+ .elem1{background-color: rgb(78, 78, 78);
+top: 0;
+left: 0;
+z-index: 2;}
+ .elem2{background-color: rgb(38, 0, 255);
+    left: 75px;
+    top: 75px;
+    z-index: 1;
+}
+ .elem3{background-color: rgb(252, 0, 0);
+    left: 150px;
+    top: 150px;
+    z-index: 0;
+}
+ 
+ .box{padding-top: 128px;
+padding-bottom: 128px;
+position: relative;}
+
+body {
+    font-family: "Raleway", serif;
+  }
+.header{display: flex;
+gap: 32px;}
+
+.top{
+    padding-top: 84px;
+    padding-bottom: 84px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:center ;
+    align-items: center;
+    gap: 22px;
+}
+
+.about_text {
+width: 870px;
+font-family: 'Times New Roman', Times, serif;
+font-weight: 200;
+font-size: 18px;
+line-height: 30px;
+color: rgb(252, 252, 252);
+mix-blend-mode: normal;}
+
+
+.about_content{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.heading {
+
+    color: antiquewhite;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
