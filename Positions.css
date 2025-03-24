@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.8;
+    margin: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 900px;
+    width: 100%;
+    text-align: center;
+}
+
+h1, h2 {
+    color: #222;
+}
+p, ul {
+    text-align: left;
+}
+
+.nazad {
+    background-color: rgb(245, 245, 245);
+    width: 73px;
+    border-radius: 5px;
+}
+
+.nazad p a {
+    text-decoration: none;
+    color: rgb(200, 200, 200);
+    margin-left: 12%;
+}
+
+.nazad:hover {
+    background-color: rgb(240, 240, 240);
+}
