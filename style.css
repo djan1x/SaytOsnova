@@ -36,7 +36,7 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    background-color: #282c34; /* Темный фон */
+
     color: white; /* Цвет текста */
 }
 
@@ -64,7 +64,6 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    background-color: #000000; /* Темный фон */
     color: white; /* Цвет текста */
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
